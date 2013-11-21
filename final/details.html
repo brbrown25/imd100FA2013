@@ -1,0 +1,126 @@
+<!doctype>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>About {Character Name}</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/horror-book.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+    	<!-- begin header#banner -->
+        <header id="banner">
+			<a href="http://bjbrown.aisites.com/final/"><img src="http://dummyimage.com/550x200/000/fff" width="550" height="200" alt="Horror Book Banner"></a>
+            <h1>Your Character/Movie Here!</h1>
+        </header>
+        <!-- end header#banner -->
+		<!-- begin nav#global-nav -->
+		<nav id="global-nav">
+			<ul>
+				<li><a href="#http://tjsjlion89.aisites.com/final/details.html"><img src="images/leatherface_up.png" width="180" height="180" alt="Leatherface"></a></li>
+				<li><a href="#http://mizshantal.aisites.com/final/details.html"><img src="images/jason_up.png" width="180" height="180" alt="Jason"></a></li>
+				<li><a href="#http://brentebell.aisites.com/final/details.html"><img src="images/blair_witch_project_up.png" width="180" height="180" alt="Blair Witch"></a></li>
+				<li><a href="#http://ahking.aisites.com/final/details.html"><img src="images/michaelmeyers_up.jpg" width="180" height="180" alt="Michael Meyers"></a></li>
+				<li><a href="#http://rrrebekkah.aisites.com/final/details.html"><img src="images/blackchristmas_up.png" width="180" height="180" alt="Black Christmas"></a></li>
+				<li><a href="#http://kristinlubeck3.aisites.com/final/details.html"><img src="images/norman_up.png" width="180" height="180" alt="Norman Bates"></a></li>
+				<li><a href="#http://stuwrd04.aisites.com/final/details.html"><img src="images/candyman_up.png" width="180" height="180" alt="Candyman"></a></li>
+				<li><a href="#http://clemon123.aisites.com/final/details.html"><img src="images/saw_up.png" width="180" height="180" alt="Jigsaw"></a></li>
+				<li><a href="#http://demetriuswashi.aisites.com/final/details.html"><img src="images/chucky_up.png" width="180" height="180" alt="chucky"></a></li>
+				<li><a href="#http://kmorganphotogr.aisites.com/final/details.html"><img src="images/freddy_up.png" width="180" height="180" alt="Freddy Kreuger"></a></li>
+				<li><a href="#http://username.aisites.com/final/details.html"><img src="images/up.png" width="180" height="180" alt="Sleepway Camp"></a></li>
+				<li><a href="#http://powellmpd.aisites.com/final/details.html"><img src="images/mybloodyvalentine_up.jpg" width="180" height="180" alt="My Bloody Valentine"></a></li>
+				<li><a href="#http://username.aisites.com/final/details.html"><img src="images/up.png" width="180" height="180" alt="Insidious"></a></li>
+				<li><a href="#http://orybailey.aisites.com/final/details.html"><img src="images/ghostface_up.png" width="180" height="180" alt="Ghostface"></a></li>
+				<li><a href="#http://raeannserra.aisites.com/final/details.html"><img src="images/pinhead_up.jpg" width="180" height="180" alt="Pinhead"></a></li>
+			</ul>
+		</nav>
+		<!-- end nav#global-nav -->
+        <!-- begin div#article-container -->
+        <div id="article-container">
+        	<!-- begin section.content-section -->
+        	<section class="content-section">
+            	<h1 class="section-headline">Headline for the section</h1>
+                <!-- begin article.subsection -->
+                <article class="subsection">
+                	<h2 class="subsection-headline">sub section headline</h2>
+                    <p>para 1</p>
+                    <p>para 2</p>
+                </article>
+                <!-- end article.subsection -->
+            </section>
+	        <!-- end section.content-section -->      
+            <!-- begin section.content-section -->
+        	<section class="content-section">
+            	<h1 class="section-headline">Headline for the section</h1>
+                <!-- begin article.subsection -->
+                <article class="subsection">
+                	<h2 class="subsection-headline">sub section headline</h2>
+                    <p>para 1</p>
+                    <p>para 2</p>
+                </article>
+                <!-- end article.subsection -->
+            </section>
+	        <!-- end section.content-section -->        
+        </div>
+        <!-- end div#article-container -->
+		<!-- begin footer#global-footer -->
+		<footer id="global-footer">
+			<p>&copy; 2013 - <a href="yourstudentwebspace">Your Name Here</a><br>
+			Final for AI Charleston Basic Web!
+			</p>
+		</footer>
+		<!-- end footer#global-footer -->
+	</div>
+	<script type="text/javascript">
+		$('h1.section-headline').click(function(){ 
+			$(this).siblings('article.subsection').toggle('slow');
+		});
+		//Step One: On Document ready handler
+		$(document).ready(function(){
+			//Step Two: attach hover function to navigation
+			$('#global-nav img').hover(function(e){
+				//console.log('[Mouse Enter] Event:'+e);
+				$(this).attr('src',$(this).attr('src').replace('_up','_over'));
+				//console.log($(this).attr('src').replace('_up','_over'));
+				},function(e){//end hoverIN
+				//console.log('[Mouse Leave] Event:'+e);
+				$(this).attr('src',$(this).attr('src').replace('_over','_up'));
+				}//end HoverOut
+			);//end hover function
+		});//end document.ready handler
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

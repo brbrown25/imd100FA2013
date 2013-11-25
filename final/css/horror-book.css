@@ -8,6 +8,9 @@ ul, li, ol {
 html, body {
 	background: url("../images/bg-texture.png");
 }
+body#details-page {
+	background: url("../images/newImage.png");
+}
 /* layout */
 #wrapper {
 	width: 960px;

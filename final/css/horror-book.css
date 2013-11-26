@@ -6,10 +6,10 @@ ul, li, ol {
 }
 /* global */
 html, body {
-	background: url("../images/bg-texture.png");
+	background: url("../assets/images/bg-texture.png");
 }
 body#details-page {
-	background: url("../images/newImage.png");
+	background: url("../assets/images/newImage.png");
 }
 /* layout */
 #wrapper {
@@ -65,6 +65,36 @@ body#details-page {
 #global-footer p {
 	text-align: center;
 }
+
+/* image gallery */
+#image-gallery{}
+#image-gallery ul{}
+#image-gallery li{
+	width: 150px;
+	margin: 5px 10px;
+	float: left;
+}
+.gallery-thumbnail{}
+.gallery-caption{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
